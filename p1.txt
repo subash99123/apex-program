@@ -1,0 +1,18 @@
+/*
+  Authour : Preeth
+  Version : 1.0
+  Date : 2019-03-29
+*/
+public class Employee {
+  String EmployeeName;
+    Integer EmployeeNo;
+    // Constructor --> Single line comment 
+    public Employee(){
+        EmployeeName = 'Subash';
+        EmployeeNo = 101;
+    }
+    public void show(){
+        System.debug('Employee Name is : ' + EmployeeName);
+        System.debug('Employee Number is : ' + EmployeeNo);
+    }
+}
